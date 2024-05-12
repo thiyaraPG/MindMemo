@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity2">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#C5ECFF"
+        tools:context=".SplashActivity"
+        tools:layout_editor_absoluteX="-16dp"
+        tools:layout_editor_absoluteY="53dp">
+
+        <!-- Logo or Image -->
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="371dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="32dp"
+            android:layout_marginBottom="328dp"
+            app:srcCompat="@drawable/memomind" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="293dp"
+            android:layout_height="80dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="59dp"
+            android:layout_marginEnd="59dp"
+            android:layout_marginBottom="324dp"
+            android:fontFamily="@font/acme"
+            android:text="MemoMind"
+            android:textAlignment="center"
+            android:textSize="48sp" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="217dp"
+            android:layout_height="71dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="97dp"
+            android:layout_marginEnd="96dp"
+            android:layout_marginBottom="81dp"
+            android:backgroundTint="#f9c5db"
+            android:fontFamily="@font/acme"
+            android:text="Write Now"
+            android:textAlignment="center"
+            android:textColor="#2F2E2E"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="129dp"
+            android:layout_marginEnd="127dp"
+            android:layout_marginBottom="275dp"
+            android:fontFamily="@font/acme"
+            android:text="The Journaling App"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <!-- Add any additional UI elements or animations here -->
+
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
